@@ -134,11 +134,11 @@ def generate_poem(reques_poem):
 
 # # Example usage
 
-# prompt = "Ngày mai em đi"
+prompt = "Ngày mai em đi"
 # prompt = "Thì thầm mùa xuân"
 # prompt = "Hoa cỏ may"
 # prompt = "Nắng chiều thu"
-prompt = "Xa em kỷ niệm"
+# prompt = "Xa em kỷ niệm"
 reques_poem = "### Bài thơ: " + prompt + "\n"
 
 response = generate_poem(reques_poem)
