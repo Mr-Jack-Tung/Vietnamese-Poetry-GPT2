@@ -68,8 +68,8 @@ print("\n")
 
 for i in range(len(poem_data)):
 
-	# print("\n" + poem_data[i]) # ~> to vision the full content of the Poem
-	print("\n" + poem_data[i].split("\n")[0]) # ~> to vision the Title of the Poem
+	# print("\n" + poem_data[i]) # ~> to show the full content of the Poem
+	print("\n" + poem_data[i].split("\n")[0]) # ~> to show the Title of the Poem
 
 	try:
 		input_ids = tokenizer.encode(text=poem_data[i], add_special_tokens=True, return_tensors='pt').to(device) # max_length=batch_size, truncation=True, padding='max_length', max_length=256, pad_token=1, 
