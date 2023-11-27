@@ -1,4 +1,4 @@
-# Vietnamese-Poetry-GPT2
+# Vietnamese-Poetry-GPT2-124M
 
 Do file model >25Mb nên Github không cho upload vì vậy các bạn có thể download tại Diver này về thử nghiệm nhé.
 
