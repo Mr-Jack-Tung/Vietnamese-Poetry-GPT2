@@ -5,5 +5,5 @@ Do file model >25Mb nên Github không cho upload vì vậy các bạn có thể
 # Full model folder:
 https://drive.google.com/drive/folders/10DjCVfXkirXD5MNo5_1lay8NLzuNICP4?usp=sharing
 
-# pytorch_model.bin file:
+# pytorch_model.bin file (497.8MB on disk):
 https://drive.google.com/file/d/1ZsvprO5b8R2Rd_PJwuGvbmeiP82z6h6w/view?usp=share_link
