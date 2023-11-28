@@ -23,10 +23,6 @@ os.environ["TOKENIZERS_PARALLELISM"]="False"
 # https://arxiv.org/abs/2109.08
 torch.manual_seed(3407)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-# device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
-
-# Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure)
-# os.environ['PYTORCH_MPS_HIGH_WATERMARK_RATIO'] = '0.0'
 
 # Define the data
 epoch = 2
