@@ -23,6 +23,7 @@ os.environ["TOKENIZERS_PARALLELISM"]="False"
 # https://arxiv.org/abs/2109.08
 torch.manual_seed(3407)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
 
 # Define the data
 epoch = 2
