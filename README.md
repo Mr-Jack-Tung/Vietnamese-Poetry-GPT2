@@ -11,6 +11,6 @@ https://drive.google.com/file/d/1ZsvprO5b8R2Rd_PJwuGvbmeiP82z6h6w/view?usp=share
 # Để test thử làm thơ:
 python Vietnamese-Poetry-GPT2-Inference.py
 
-# Để tiếp tục training model làm thơ:
+# Để tiếp tục training model:
 python Vietnamese-Poetry-GPT2-Finetune-26Nov2023_simple.py
 
