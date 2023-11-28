@@ -14,7 +14,6 @@ from tqdm import trange
 from time import sleep
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers import TextStreamer
 
 import pandas as pd
 
@@ -114,8 +113,6 @@ model.save_pretrained(model_name)
 def generate_poem(reques_poem):
 	# Encode the reques_poem using the tokenizer
 	input_ids = tokenizer.encode(reques_poem, add_special_tokens=False, return_tensors='pt').to(device)
-
-	streamer = TextStreamer(tokenizer)
 
 	# Generate the response poem using the model
 	sample_output = model.generate(input_ids, 
