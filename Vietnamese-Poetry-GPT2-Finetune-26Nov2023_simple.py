@@ -25,6 +25,10 @@ torch.manual_seed(3407)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
 
+# Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations
+if device == "mps":
+	PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0
+
 # Define the data
 epoch = 2
 
