@@ -92,8 +92,7 @@ for i in range(len(poem_data)):
 			print(f"model Exception occurred", e)
 			break
 
-		str_loss = "{:.3f}".format(loss.item())
-		t.set_postfix(loss=str_loss)
+		t.set_postfix(loss="{:.3f}".format(loss.item()))
 
 		optimizer.zero_grad()
 		loss.backward()
