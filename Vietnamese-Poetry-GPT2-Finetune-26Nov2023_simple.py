@@ -30,7 +30,7 @@ epoch = 2
 poem_choice = 10
 
 data_file_path = 'vietnamese_poems_1k.csv'
-loss_margin = 4.6
+loss_margin = 4.6 # 4 # 3 # 2 # 1
 learning_rate = 3e-4
 
 # Step 1: Pretrained loading
