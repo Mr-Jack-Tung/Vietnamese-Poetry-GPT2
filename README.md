@@ -1,5 +1,9 @@
 # Vietnamese-Poetry-GPT2-124M
 
+![alt text](https://github.com/Mr-Jack-Tung/Vietnamese-Poetry-GPT2/blob/main/Screenshot_1.jpg)
+
+![alt text](https://github.com/Mr-Jack-Tung/Vietnamese-Poetry-GPT2/blob/main/Screenshot_2.jpg)
+
 Do file model >25Mb nên Github không cho upload vì vậy các bạn có thể download tại Diver này về thử nghiệm nhé.
 
 # Full model folder:
