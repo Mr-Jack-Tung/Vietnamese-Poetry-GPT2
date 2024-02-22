@@ -1,4 +1,7 @@
 # Vietnamese-Poetry-GPT2-124M
+- Author: Mr.Jack _ Công ty www.BICweb.vn
+- Start: Wed 01 November 2023
+- End: Sun 26 November 2023
 
 Do file model >25Mb nên Github không cho upload vì vậy các bạn có thể download tại Diver này về thử nghiệm nhé.
 
