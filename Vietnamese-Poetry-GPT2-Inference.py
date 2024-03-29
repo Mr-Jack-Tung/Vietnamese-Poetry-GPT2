@@ -11,7 +11,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import TextStreamer
 
 
-# https://arxiv.org/abs/2109.08
+# https://arxiv.org/abs/2109.08203 - Torch.manual_seed(3407) is all you need
 torch.manual_seed(3407)
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
